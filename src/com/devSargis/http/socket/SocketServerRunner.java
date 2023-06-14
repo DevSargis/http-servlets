@@ -12,6 +12,7 @@ import java.util.Scanner;
 //not send us "stop" keyword we first print that request message, than collect response and inject that response text to output for server side
 //then we wait when our client send us new message again
 // We use DataInputStream and DataOutputStream classes for UTF format
+//FOR UDP protocol we use another class DataGramSocket
 public class SocketServerRunner {
     public static void main(String[] args) throws IOException {
         try (var serverSocket = new ServerSocket(7777);
