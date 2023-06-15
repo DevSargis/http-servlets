@@ -1,0 +1,56 @@
+HTTP(HyperText Transfer Protocol) protocol very useful protocol in the world, at first that protocol transfer only HTML document
+Every HTTP message independent on it is from client side or server side consist of 3 parts
+
+start line(GENERAL)
+HEADER
+BODY
+----------
+GENERAL contain
+1.METHODS(Get, Post, Put, Delete, etc.)
+2.URL
+3.protocol version(HTTP/1.1, HTTP/2)
+
+example
+GET https://google.com HTTP/2
+POST http://youtube HTTP/1.1
+https protocol use HTTP/2 version
+--------------
+HTTP method, it is name the operation which must commit HTTP request
+There are several types of the HTTP request
+-GET -for getting some information form server
+-POST -for creation some information on the server
+-UPDATE
+-DELETE
+-PATCH -This method need us for update information but not all for example when we want to update some part of our data
+-HEAD -HEAD method does the same action as get but HEAD doesn't contain body
+-OPTION
+-TRACE
+---------------
+URL(uniform Resource Locator) consist of 4 based parts
+1.protocol
+2.DNS or IP address
+3.resources address
+4.parameter list
+
+https://example.com:443/users/1?word=java&sourcId=2
+-------------
+As we already said Response also consist of 3 parts
+-protocol version
+-code state
+-explanation text
+
+Example
+HTTP/2 200 OK
+HTTP/1.1 404 Not Found
+HTTP/1.1 500 Internal Server Error
+-------------------
+
+HEADER
+
+Header part contain metadata about request message
+Authorization --->
+Accept ---------->
+Content-Type:application/json
+Accept-Language:en-US
+Cookie
+

@@ -1,0 +1,12 @@
+So we already know how is structured http request, now let tolk about body, we can send request to server and our body can be any type for example <xml>, JSON and etc.
+So we already know about header, and we know that header contain metadata about request or response, in the header we have two keys which describe which data type we send to server and
+which data type server send us
+
+headers
+content-type: MIME type // This key response to which data type we sent to server
+accept: MIME type // This key response to which data type server return us
+
+
+MIME it is standard that indicates the nature and format of a document, file, or assortment of bytes
+
+
