@@ -19,3 +19,5 @@ OTHER REQUEST WILL WAIT WHEN OUR REQUEST WILL COMPLETED,
 
 Because our server can accepted for example 100 request at the moment we must become our server async, for that first we must declare ExecutorService, and create fixed thread pool, now we must
 move that logic to the while loop Because we can keep our server turn on state and that it, and in the client side we must replace send to sendAsync, that is way work apache server in based
+
+course link https://nnmclub.to/forum/viewtopic.php?t=1566799
